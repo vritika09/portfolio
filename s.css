@@ -215,10 +215,13 @@ section .title::after
     min-height: 500px;
     font-family: 'ubuntu', sans-serif;
 }
+.hm-img{
+    display: none;
+}
 
 .home .max-width
 {
-    margin: auto 0 auto 40px;
+    margin: auto 0 auto 0px;
 }
 .home .home-content a
 {
@@ -662,11 +665,13 @@ footer{
     padding: 20px;
     text-align: center;
     margin: 0px;
+    display: flex;
+    justify-content: center;
 }
 
-footer .f{
+/* footer .f{
     margin-left: 30%;
-}
+} */
 
 
 .footer{
@@ -805,6 +810,9 @@ footer .f{
         margin-bottom: 25px;
         width: 100%;
     }
+    .f{
+        margin: 0px;
+    }
 
 
 }
@@ -834,6 +842,11 @@ footer .f{
     {
         width:100%;
     }  
+    .f{
+        margin: 0px;
+    }
+  
+
 }
 
 @media (max-width : 500px)
@@ -848,4 +861,21 @@ footer .f{
     {
         font-size: 27px;
     }
+    .f{
+        margin: 0px;
+    }
+    
+    .home{
+        background-image: none;
+    }
+    .hm-img{
+        display: flex;
+        bottom: 0px;
+        background-image: url(images/without\ bg\ my\ pic.png);
+    }
+    .text-3{
+        font-size: 18px;
+    }
+   
+
 }

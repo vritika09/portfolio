@@ -50,6 +50,9 @@
                 <div class="text-3">And I'm a <span class="typing"></span></div>
                 <a href="mailto: vritikajangir09042001@gmail.com">Hire me</a>
             </div>
+            <div class="hm-img">
+                <img src="images/without bg my pic.png" alt="">
+            </div>
         </div>
     </section>
 
